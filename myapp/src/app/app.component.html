@@ -1,0 +1,10 @@
+<nav [ngClass]="'menu'">
+  <ul>
+    <li><a routerLink="/company" routerLinkActive="active">Company</a></li>
+    <li><a routerLink="/person" routerLinkActive="active">Person</a></li>
+  </ul>
+</nav>
+
+<div [ngClass]="'parent-container'">
+    <router-outlet> </router-outlet>
+</div>
